@@ -42,4 +42,28 @@ return {
       },
     },
   },
+
+  {
+    -- Мультикурсор
+    "mg979/vim-visual-multi",
+    event = "VeryLazy",
+  },
+
+  {
+    -- Улучшенная подсветка JSX
+    "neoclide/vim-jsx-improve",
+    event = "VeryLazy",
+  },
+
+  {
+    -- Подстсветка .ts .tsx файлов
+    "HerringtonDarkholme/yats.vim",
+    event = "VeryLazy",
+  },
+
+  {
+    -- Оборот слов в скобки
+    "machakann/vim-sandwich",
+    event = "VeryLazy",
+  },
 }
