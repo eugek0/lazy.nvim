@@ -17,6 +17,8 @@ map("n", "<leader>xo", function()
   Snacks.bufdelete.other()
 end, { desc = "Delete Other Buffers" })
 
+map("n", "<leader>ut", "<cmd>Themery<cr>", { desc = "Choose theme" })
+
 map("n", "<M-h>", "<cmd>ToggleTerm direction=horizontal name=horizontal<cr>", { desc = "Open horizontal terminal" })
 map("n", "<M-i>", "<cmd>ToggleTerm direction=float name=float<cr>", { desc = "Open floating terminal" })
 map("t", "<M-h>", "<cmd>ToggleTerm direction=horizontal name=horizontal<cr>", { desc = "Open horizontal terminal" })
