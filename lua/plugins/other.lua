@@ -4,8 +4,8 @@ return {
     build = ":Cord update",
     opts = {
       editor = {
-        client = "lazyvim",
-        tooltip = "LazyVim",
+        client = "neovim",
+        tooltip = "Neovim (💤LazyNvim)",
       },
 
       display = {
